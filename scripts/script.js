@@ -10,7 +10,10 @@ var CommentBox = React.createClass({
   }
 });
 
-var divStyle = {
+var comment = {
+    border: '1px solid yellow',
+}
+var commentAuthor = {
     color: 'red',
 }
 var data = [
@@ -46,8 +49,8 @@ var CommentForm = React.createClass({
 var Comment = React.createClass({
   render: function() {
     return (
-      <div className="comment">
-        <h2 className="commentAuthor">
+      <div style={comment} className="comment">
+        <h2 style={commentAuthor} className="commentAuthor">
           {this.props.author}
         </h2>
         {this.props.children}
