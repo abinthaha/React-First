@@ -2,3 +2,13 @@ body {
     background: rgba(0, 0, 0, 0.4);;
     color: white;
 }
+.comment {
+    border: 1px solid wheat;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+.commentAuthor {
+    color: #FF1010;
+    border-bottom: 1px solid darkcyan;
+}
